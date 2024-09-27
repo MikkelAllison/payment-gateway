@@ -1,4 +1,4 @@
-`# Payment Gateway API
+# Payment Gateway API
 
 ## Overview
 
