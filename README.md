@@ -14,6 +14,7 @@ This project implements a simple payment gateway API that allows merchants to pr
 - [Retrieve Payment Details](#retrieve-payment-details)
 - [Assumptions Made](#assumptions-made)
 - [Areas for Improvement](#areas-for-improvement)
+- [Cloud Technologies](#cloud-technologies)
 - [Running Tests](#running-tests)
 - [Contact Information](#contact-information)
 
@@ -165,8 +166,17 @@ Areas for Improvement
 -   **Testing:**
     -   Increase test coverage, including unit, integration, and end-to-end tests.
     -   Implement tests for further edge cases and error scenarios.
+ 
+Cloud Technologies
+-------------------
 
-
+- **Docker:** Containerise the application for consistent deployment.
+- **Kubernetes:** For orchestration and scaling of containers.
+- **AWS Services:**
+    - ECS/EKS: To run Docker containers.
+    - RDS: For managed relational database services.
+    - API Gateway: To expose APIs securely with features such as rate limiting and security.
+    - CloudWatch: For logging and monitoring performance.
 
 Running Tests
 -------------
